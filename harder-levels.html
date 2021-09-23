@@ -8,16 +8,30 @@
 </head>
 <body>
     
-    <!-- medium key silhouette -->
+<!-- medium key silhouette -->
 
-    <svg height="512" width="512" viewbox="0 0 512 512" fill="none" xmlns="http://w3.org/2000/svg">
+<svg height="512" width="512" viewbox="0 0 512 512" fill="none" xmlns="http://w3.org/2000/svg">
         <rect x="200" y="15" height="150" width="215" rx="80" ry="80"
-        fill="none" stroke="black" stroke-width="30"/>
+            fill="none" stroke="black" stroke-width="30"/>
         <line x1="280" x2="330" y1="190" y2="190" fill="none" stroke="black" stroke-width="30"/>
         <line x1="320" x2="345" y1="375" y2="375" fill="none" stroke="black" stroke-width="30"/>
         <line x1="320" x2="375" y1="425" y2="425" fill="none" stroke="black" stroke-width="30"/>
         <polyline points="305,180 305,475 410,475" fill="none" stroke="black" stroke-width="30"/>
-    </svg>
+</svg>
 
+<!-- hard diamond - I got frustrated at one point and started eyeballing the measurements which I think
+threw the whole thing off, but I got the basic shapes. :/ I think having to compensate for the stroke width
+kept throwing off things, maybe. -->
+
+    <svg height="800" width="750" viewbox="0 0 800 750" fill="none" xmlns="http://w3.org/2000/svg">
+        <polygon points="195,35 35,275 765,275 615,35" fill="none"
+            stroke="black" stroke-width="35" stroke-linejoin="round"/>
+        <polyline points="195,35 300,265 400,35 500,265 615,35" fill="none"
+            stroke="black" stroke-width="35" stroke-linejoin="round" />
+        <polygon points="35,275 400,715 305,275"  fill="none"
+            stroke="black" stroke-width="35" stroke-linejoin="round" />
+        <polygon points="400,715 500,275 765,275"  fill="none"
+            stroke="black" stroke-width="35" stroke-linejoin="round" />
+    </svg>
 </body>
 </html>
